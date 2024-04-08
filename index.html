@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de tu página</title>
+    <style>
+        /* Estilos en línea para una mayor personalización */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #3f51b5;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ff7043;
+        }
+        main {
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        section {
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: calc(50% - 60px);
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        section:nth-child(odd) {
+            margin-right: 60px;
+        }
+        section:before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: calc(100% + 40px);
+            height: calc(100% + 40px);
+            background-color: #3f51b5;
+            z-index: -1;
+            border-radius: 30px;
+            transform: rotate(-5deg);
+        }
+        section h2 {
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #3f51b5;
+    position: relative;
+    z-index: 1;
+        }
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+        .highlight {
+            background-color: #ff7043;
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: #fff;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #3f51b5;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>¡POKEMANIACOS!</h1>
+    <nav>
+        <div>
+		<ul>
+		  <button id="btn" onClick="audio.play();">inicio</button>
+            <script type="text/javascript">
+			const audio = new Audio();
+			audio.src = "C:\Users\FJMUNGUIA\Documents\pagina\Pokemon RubySapphireEmerald- Littleroot Town.mp3";
+			</script>
+			<li><a href="#">Acerca de</a></li>
+            <li><a href="https://www.pokemon.com/el/pokedex">pokemones</a></li>
+<li><a href="#"><a href="#BOTON">Contacto</a></a></li>
+        </ul>
+		</div>
+    </nav>
+</header>	
+<main>
+    <section>
+    <div id="nosotros">
+  <p><h2>nosotros</h2></p>
+    </div>
+	<h1>Aqui es un grupo de informacion sobre lo nuevo del nuevo de pokemo</h1>
+			<br>-juegos recomendados<br/>
+			<br>-informacion<br/>
+	        <br>-proximos juegos<br/>
+      <div class="highlight"><a href="https://discord.com/invite/6ZUFy8X3">¡Únete a Nuestra Comunidad Creativa!</a></div>
+  </section>
+
+    <section>
+      <h2>tambien conoce personas&nbsp;</h2>
+        <p>somos muchos en esta comunidad asi que podemos jugar juntos hablar tener una sana convivencia&nbsp; &nbsp;</p>
+      <div class="highlight">¡Expresate!&nbsp;</div>
+    </section>
+
+    <section style="background-color: #ffab91;">
+      <h2>Pokedex&nbsp;&nbsp;</h2>
+        <p>hay&nbsp;905 pokmones que conocer coloca el nombre o numero y nos esncargaremos de buscarlo por ti &nbsp;&nbsp;</p>
+        <ul>
+            <li>tipo agua</li>
+            <li>tipo planta</li>
+            <li>tipo fuego</li>
+            <li>tipo oscuro</li>
+			<li>ETC...</li>
+        </ul>
+    </section>
+
+    <section style="background-color: #f48fb1;">
+      <h2>Actividades&nbsp;</h2>
+        <p>tenemos diferentes actividades para que te puedas unir a convivir&nbsp;&nbsp;</p>
+        <!-- Aquí puedes agregar imágenes o enlaces a tus proyectos -->
+    </section>
+
+    <section>
+        <div id="BOTON">
+          <h2><b><i><a href="https://docs.google.com/forms/d/e/1FAIpQLSepEbM8E4f7Bg5ASO1fVqRv4KGlaijJ1DcyemySVN65QVG29w/viewform?usp=sf_link">Comentarios/Contactanos</a></i></b></h2>
+        </div>
+        <div class="testimonial">
+          <p>Opina de nosotros nos ayudaria mucho a seguir subiendo informacion a la paguina y seguir mejorando:&nbsp; &nbsp; &nbsp; &nbsp;</p>
+            <p>"Increíble servicio. Superaron todas mis expectativas y generan resultados excepcionales en poco tiempo."</p>
+<p>- "Buena informacion"</p>
+      </div>
+        <div class="testimonial">
+            <p>"No podría estar más feliz con el trabajo que realizaron. Definitivamente los recomendaría a cualquiera que busque soluciones creativas."</p>
+            <p>-"ME ENCANTA LA PAGINA"</p>
+        </div>
+  </section>
+</main>
+
+<footer>
+  <p>Pie de página - ¡Expresa tu Creatividad! © 2024</p>
+</footer>
+
+</body>
+</html>
